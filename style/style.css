@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+.logo{
+    position: absolute;
+    left: 40%;
+    top:5%;
+}
+.titre{
+    position: absolute;
+    left: 41%;
+    top:11%;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 31px;
+    line-height: 36px;
+    font-weight:700;
+}
+.formulaire{
+    position: absolute;
+    left: 41%;
+    top:30%
+}
+.login input{
+    width: 380px;
+    height: 70px;
+    pointer-events: auto;
+    margin: 20px 0px 20px 0px;
+}
+ 
+ 
+.passwk input{
+    width: 380px;
+    height: 70px;
+    margin: 15px 0px 15px 0px;
+}
+
+.bouton button{
+    padding: 15px;
+    width: 380px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #347ff5;
+    color: white;
+    margin-top: 20px;
+}
+.recupere_mots_passe{
+    position: absolute;
+     margin-top: 22px;
+     left: 10%;
+}
+
+
+
+
